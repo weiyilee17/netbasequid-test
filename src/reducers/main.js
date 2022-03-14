@@ -1,20 +1,42 @@
 
 const mainReducerInitialState = {
-  test: 'hello'
+  terms: [{
+    "name": "iPhone",
+    "count": 90
+  },
+  {
+    "name": "Android",
+    "count": 80
+  },
+  {
+    "name": "Samsung",
+    "count": 70
+  },
+  {
+    "name": "Sony",
+    "count": 60
+  },
+  {
+    "name": "HTC",
+    "count": 50
+  },
+  {
+    "name": "ASUS",
+    "count": 40
+  },
+  {
+    "name": "小米",
+    "count": 30
+  },
+  {
+    "name": "Nokia",
+    "count": 20
+  }]
 };
 
 export default (state = mainReducerInitialState, action) => {
   switch (action.type) {
-    // case SET_TODOS:
-    //   return {
-    //     ...state,
-    //     todos: action.todos
-    //   };
-    // case SET_CHECKED_OUT_TODOS:
-    //   return {
-    //     ...state,
-    //     checkedOutTodos: action.checkedOutTodos
-    //   };
+
     default:
       return state;
   }

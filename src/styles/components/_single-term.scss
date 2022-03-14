@@ -1,0 +1,17 @@
+.term-name{
+  margin: $s-size 0;
+  font-weight: 700;
+  width: 25%
+}
+
+.term-percentage {
+  background-color: lightgray;
+  width: 45%;
+  text-align: end;
+  margin-bottom: $s-size;
+}
+
+.term-count {
+  width: 35%;
+  text-align: end;
+}

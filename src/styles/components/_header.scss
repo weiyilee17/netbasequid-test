@@ -1,0 +1,41 @@
+.header {
+  position: sticky;
+  font-size: $m-size;
+  margin: 0;
+  padding: 1rem;
+}
+
+.header__first {
+  background-color:dodgerblue;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+}
+
+.header__second {
+  background-color: dimgray;
+  color: white;
+}
+
+.header__second-tabs {
+  margin-left: 100px;
+}
+
+.header__second-all {
+  display: inline;
+  padding: 0.5rem;
+  background-color: white;
+  color: dimgray;
+  font-weight: 700;
+}
+
+.header__second-button {
+  background-color: dimgray;
+  border: none;
+  border-left: 1px solid lightgray;
+  color: white;
+}
+
+.header__second-button:hover {
+  background-color: darken($color:lightgray, $amount: 10%);
+}

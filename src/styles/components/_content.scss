@@ -1,0 +1,17 @@
+.table-header {
+  margin: 0 $s-size $s-size $s-size;
+  border-bottom: 3px solid lightgray;
+}
+
+.content-table {
+  overflow-y: scroll;
+  height: 130px;
+  width: 380px;
+  margin-left: $s-size;
+}
+
+.content-top-terms {
+  color: gray;
+  margin: $s-size;
+  font-weight: 700;
+}

@@ -6,16 +6,22 @@ import configureStore from './store/configureStore';
 
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
-import Header from './components/Header';
+
 import { AppRouter } from './routes/AppRouter';
+import Header from './components/Header';
+import SecondHeader from './components/SecondHeader';
+import Footer from './components/Footer';
 
 const store = configureStore();
 
 
 const App = (
   <Provider store={store}>
-    <Header />
-    <AppRouter />
+    <div className='card'>
+      <Header />
+      <AppRouter />
+      <Footer />
+    </div>
   </Provider>
 );
 
